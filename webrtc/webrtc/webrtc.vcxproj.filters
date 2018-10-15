@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\system_wrappers">
+      <UniqueIdentifier>{e39e159f-0510-4165-a63b-303cd96a24b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\system_wrappers">
+      <UniqueIdentifier>{88596489-fdd2-4e48-9d54-c9071f2d1085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\rtc_base">
+      <UniqueIdentifier>{dea867c1-ac84-407b-affb-41f90d1feb06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\api">
+      <UniqueIdentifier>{c1f4a02b-072e-43bb-89e7-9eb32fa37bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules">
+      <UniqueIdentifier>{ebe444a6-b7dd-427e-9233-8acd365204f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\include">
+      <UniqueIdentifier>{5dbb6842-cc63-48ac-8afc-36c880ed6826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\api">
+      <UniqueIdentifier>{a73bbc88-ca6e-4cc1-ae24-0039bc175bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\audio_processing">
+      <UniqueIdentifier>{30ab74a1-9cea-4196-9a84-f2f238f4d483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\audio_processing\aec">
+      <UniqueIdentifier>{5caed171-aada-4e0b-ad97-9724e6757111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules">
+      <UniqueIdentifier>{2cebde42-18e7-4644-8397-394fdd2d9b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_processing">
+      <UniqueIdentifier>{26a3c8c3-185a-46ed-bd98-c72bca4a9a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_processing\aec">
+      <UniqueIdentifier>{b6b163ea-f452-49cf-98ad-6ed15e2ede77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\common_audio">
+      <UniqueIdentifier>{fb0ded4b-e304-4719-9f06-8969687bec98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\audio_processing\utility">
+      <UniqueIdentifier>{5bdf1593-e05c-4d77-bde9-d3dc54ed09f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\audio_processing\logging">
+      <UniqueIdentifier>{0a1d6568-74ed-4fc4-8dd2-4446d0752597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_processing\utility">
+      <UniqueIdentifier>{fae44c87-d0ba-4398-b29c-ec7e86019bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_processing\logging">
+      <UniqueIdentifier>{a42adbf9-25e3-43f9-aeb4-225bcb06186f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rtc_base">
+      <UniqueIdentifier>{4aa8d90f-54fe-4c00-a5cc-f27493cfa9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common_audio">
+      <UniqueIdentifier>{8f97e904-3b5c-4757-b157-40b8158981d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common_audio\signal_processing">
+      <UniqueIdentifier>{5b6786af-8713-4cdc-818e-005e59fc2d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\audio_processing\aec3">
+      <UniqueIdentifier>{566e4012-d819-4286-b5aa-5210a1f6f1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\audio_processing\ns">
+      <UniqueIdentifier>{a9795354-a3d6-495b-a046-81ed20765dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_processing\ns">
+      <UniqueIdentifier>{8e334a3b-ac21-4bd0-bc72-c25571913719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_processing\agc">
+      <UniqueIdentifier>{66e6c505-b15f-46b4-b0d9-072279e55bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_processing\agc\legacy">
+      <UniqueIdentifier>{8a43b940-3f16-4dd9-8911-59d6d1a853cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_processing\vad">
+      <UniqueIdentifier>{34be6832-07cf-40fd-ae97-24e510e626e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_coding">
+      <UniqueIdentifier>{42c6fbb4-87ab-46d1-bf00-7151a0be380d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_coding\codecs">
+      <UniqueIdentifier>{88094bc6-b77b-4d16-9246-657f1ed4035a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_coding\codecs\isac">
+      <UniqueIdentifier>{c35bb85e-1488-4ea3-b110-7935b30f3f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_coding\codecs\isac\main">
+      <UniqueIdentifier>{d7e87f57-290f-422c-9224-fee92c0a6453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\modules\audio_coding\codecs\isac\main\source">
+      <UniqueIdentifier>{5a0f3c85-23b6-419e-bfb0-5543237f6b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common_audio\resampler">
+      <UniqueIdentifier>{50845514-1697-4c00-962a-f86c9ac6e4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common_audio\vad">
+      <UniqueIdentifier>{a9270140-b567-4306-9b77-fda99c3f048e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rtc_base\strings">
+      <UniqueIdentifier>{fc1e3890-f610-47f4-9a66-deb83e6e618f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rtc_base\memory">
+      <UniqueIdentifier>{bfd503bf-27b3-47b9-b772-d1f75a6f58a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\api\audio">
+      <UniqueIdentifier>{3ffd20a3-5c45-47e8-8ae0-56cda844b1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\audio_processing\agc">
+      <UniqueIdentifier>{7531dbc4-c929-41fb-a65e-6b10e1baf3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\audio_processing\agc\legacy">
+      <UniqueIdentifier>{384c2ff6-3686-4121-bfc8-7ff9e177082e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\modules\audio_processing\vad">
+      <UniqueIdentifier>{5c007ea0-9211-4f31-8e6c-10d22626e81e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\typedefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\include\module.h">
+      <Filter>头文件\modules\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\include\module_common_types.h">
+      <Filter>头文件\modules\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\include\module_common_types_public.h">
+      <Filter>头文件\modules\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\include\module_fec_types.h">
+      <Filter>头文件\modules\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\aec\aec_common.h">
+      <Filter>头文件\modules\audio_processing\aec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\aec\aec_core.h">
+      <Filter>头文件\modules\audio_processing\aec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\aec\aec_core_optimized_methods.h">
+      <Filter>头文件\modules\audio_processing\aec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\aec\aec_resampler.h">
+      <Filter>头文件\modules\audio_processing\aec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\aec\echo_cancellation.h">
+      <Filter>头文件\modules\audio_processing\aec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\utility\block_mean_calculator.h">
+      <Filter>头文件\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\utility\delay_estimator.h">
+      <Filter>头文件\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\utility\delay_estimator_internal.h">
+      <Filter>头文件\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\utility\delay_estimator_wrapper.h">
+      <Filter>头文件\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\utility\ooura_fft.h">
+      <Filter>头文件\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\utility\ooura_fft_tables_common.h">
+      <Filter>头文件\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\utility\ooura_fft_tables_neon_sse2.h">
+      <Filter>头文件\modules\audio_processing\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\logging\apm_data_dumper.h">
+      <Filter>头文件\modules\audio_processing\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\ns\defines.h">
+      <Filter>头文件\modules\audio_processing\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\ns\noise_suppression.h">
+      <Filter>头文件\modules\audio_processing\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\ns\noise_suppression_x.h">
+      <Filter>头文件\modules\audio_processing\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\ns\ns_core.h">
+      <Filter>头文件\modules\audio_processing\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\ns\nsx_core.h">
+      <Filter>头文件\modules\audio_processing\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\ns\nsx_defines.h">
+      <Filter>头文件\modules\audio_processing\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\modules\audio_processing\ns\windows_private.h">
+      <Filter>头文件\modules\audio_processing\ns</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\modules\audio_processing\aec\aec_core.cc">
+      <Filter>源文件\modules\audio_processing\aec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\aec\aec_core_sse2.cc">
+      <Filter>源文件\modules\audio_processing\aec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\aec\aec_resampler.cc">
+      <Filter>源文件\modules\audio_processing\aec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\aec\echo_cancellation.cc">
+      <Filter>源文件\modules\audio_processing\aec</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\utility\ooura_fft.cc">
+      <Filter>源文件\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\utility\delay_estimator_wrapper.cc">
+      <Filter>源文件\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\utility\delay_estimator.cc">
+      <Filter>源文件\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\utility\block_mean_calculator.cc">
+      <Filter>源文件\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\logging\apm_data_dumper.cc">
+      <Filter>源文件\modules\audio_processing\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtc_base\checks.cc">
+      <Filter>源文件\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\randomization_functions.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\system_wrappers\source\metrics_default.cc">
+      <Filter>源文件\system_wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtc_base\criticalsection.cc">
+      <Filter>源文件\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\utility\ooura_fft_sse2.cc">
+      <Filter>源文件\modules\audio_processing\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\ns\noise_suppression.c">
+      <Filter>源文件\modules\audio_processing\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\ns\noise_suppression_x.c">
+      <Filter>源文件\modules\audio_processing\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\ns\ns_core.c">
+      <Filter>源文件\modules\audio_processing\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\ns\nsx_core.c">
+      <Filter>源文件\modules\audio_processing\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\ns\nsx_core_c.c">
+      <Filter>源文件\modules\audio_processing\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\spl_sqrt.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\spl_sqrt_floor.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\real_fft.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\complex_fft.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\spl_init.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\min_max_operations.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\division_operations.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\complex_bit_reverse.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\downsample_fast.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\cross_correlation.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\vector_scaling_operations.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\energy.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\copy_set_operations.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\get_scaling_square.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\spl_inl.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\agc\agc.cc">
+      <Filter>源文件\modules\audio_processing\agc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\agc\loudness_histogram.cc">
+      <Filter>源文件\modules\audio_processing\agc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\agc\utility.cc">
+      <Filter>源文件\modules\audio_processing\agc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\agc\legacy\analog_agc.c">
+      <Filter>源文件\modules\audio_processing\agc\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\agc\legacy\digital_agc.c">
+      <Filter>源文件\modules\audio_processing\agc\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\vad\gmm.cc">
+      <Filter>源文件\modules\audio_processing\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\vad\pitch_based_vad.cc">
+      <Filter>源文件\modules\audio_processing\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\vad\pitch_internal.cc">
+      <Filter>源文件\modules\audio_processing\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\vad\pole_zero_filter.cc">
+      <Filter>源文件\modules\audio_processing\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\vad\vad_audio_proc.cc">
+      <Filter>源文件\modules\audio_processing\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\vad\vad_circular_buffer.cc">
+      <Filter>源文件\modules\audio_processing\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\vad\voice_activity_detector.cc">
+      <Filter>源文件\modules\audio_processing\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_coding\codecs\isac\main\source\filter_functions.c">
+      <Filter>源文件\modules\audio_coding\codecs\isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_coding\codecs\isac\main\source\isac_vad.c">
+      <Filter>源文件\modules\audio_coding\codecs\isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_coding\codecs\isac\main\source\pitch_estimator.c">
+      <Filter>源文件\modules\audio_coding\codecs\isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_coding\codecs\isac\main\source\pitch_filter.c">
+      <Filter>源文件\modules\audio_coding\codecs\isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\vad\standalone_vad.cc">
+      <Filter>源文件\modules\audio_processing\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\system_wrappers\source\cpu_features.cc">
+      <Filter>源文件\system_wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\ring_buffer.c">
+      <Filter>源文件\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\vad\vad.cc">
+      <Filter>源文件\common_audio\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\vad\vad_core.c">
+      <Filter>源文件\common_audio\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\vad\webrtc_vad.c">
+      <Filter>源文件\common_audio\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\resample_48khz.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\resample_fractional.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\resample_by_2_internal.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\vad\vad_filterbank.c">
+      <Filter>源文件\common_audio\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\vad\vad_gmm.c">
+      <Filter>源文件\common_audio\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\vad\vad_sp.c">
+      <Filter>源文件\common_audio\vad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\dot_product_with_scale.cc">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\resample.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\resample_by_2.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\fft4g.c">
+      <Filter>源文件\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\resampler\resampler.cc">
+      <Filter>源文件\common_audio\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtc_base\logging.cc">
+      <Filter>源文件\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtc_base\platform_thread_types.cc">
+      <Filter>源文件\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtc_base\strings\string_builder.cc">
+      <Filter>源文件\rtc_base\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtc_base\timeutils.cc">
+      <Filter>源文件\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtc_base\stringencode.cc">
+      <Filter>源文件\rtc_base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\audio_buffer.cc">
+      <Filter>源文件\modules\audio_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\channel_buffer.cc">
+      <Filter>源文件\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\audio_util.cc">
+      <Filter>源文件\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\three_band_filter_bank.cc">
+      <Filter>源文件\modules\audio_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\sparse_fir_filter.cc">
+      <Filter>源文件\common_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\signal_processing\splitting_filter.c">
+      <Filter>源文件\common_audio\signal_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\resampler\push_sinc_resampler.cc">
+      <Filter>源文件\common_audio\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\resampler\sinc_resampler.cc">
+      <Filter>源文件\common_audio\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rtc_base\memory\aligned_malloc.cc">
+      <Filter>源文件\rtc_base\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\audio_processing\splitting_filter_apm.cc">
+      <Filter>源文件\modules\audio_processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common_audio\resampler\sinc_resampler_sse.cc">
+      <Filter>源文件\common_audio\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\api\audio\audio_frame.cc">
+      <Filter>源文件\api\audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
